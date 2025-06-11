@@ -1,3 +1,5 @@
-export default function Home() {
-  return <></>;
+import AccessControlDashboard from "../access-control-dashboard"
+
+export default function Page() {
+  return <AccessControlDashboard />
 }
